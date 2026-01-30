@@ -25,6 +25,8 @@
 - id: words
   one: "One mot"
   other: "{{.Count}} mots"
+- id: toc
+  translation: "Table des matières"
 - id: taggedPosts
   one: "Un article"
   other: "{{.Count}} articles"
