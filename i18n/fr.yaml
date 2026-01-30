@@ -25,6 +25,8 @@
 - id: words
   one: "One mot"
   other: "{{.Count}} mots"
+- id: toc
+  translation: "Table des matières"
 
 # 404 page
 - id: pageNotFound

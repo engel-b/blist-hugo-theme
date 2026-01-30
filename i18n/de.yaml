@@ -25,6 +25,8 @@
 - id: words
   one: "Ein Wort"
   other: "{{.Count}} Wörter"
+- id: toc
+  translation: "Inhaltsverzeichnis"
 
 # 404 page
 - id: pageNotFound

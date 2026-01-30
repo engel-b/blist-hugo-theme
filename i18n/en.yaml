@@ -25,6 +25,8 @@
 - id: words
   one: "One word"
   other: "{{.Count}} words"
+- id: toc
+  translation: "Table of contents"
 
 
 # 404 page

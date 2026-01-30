@@ -23,6 +23,8 @@
   translation: "minuto(s)"
 - id: words
   translation: "palabra(s)"
+- id: toc
+  translation: "Tabla de contenido"
 
 
 # 404 page
