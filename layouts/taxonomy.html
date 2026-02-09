@@ -6,7 +6,11 @@
     <div class="container p-6 pt-6 mx-auto">
       <div id="tag-wrapper" style="width: 100%; height: 620px;"></div>
 
-      <script src="{{ "/js/wordcloud2.js" | relURL }}"></script>
+      {{- $js := resources.Get "js/wordcloud2.js" -}}
+      {{- if $js -}}
+        {{- $js = $js | minify | fingerprint -}}
+        <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" ></script>
+      {{- end -}}
       <script>
 
       // Array: [ [tag, gewicht], ... ]
