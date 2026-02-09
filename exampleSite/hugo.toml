@@ -123,6 +123,9 @@ DefaultContentLanguageInSubdir = true
   # The page bundle that is shown on the front page
   frontBundle = "blog"
 
+  # Number of items on front page
+  frontNum = 8
+
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
   hideMeta = false
@@ -139,6 +142,13 @@ DefaultContentLanguageInSubdir = true
   # Thumbnails in home and blog pages will still be shown
   # This setting can also be in page's markdown file
   hidePageThumbnail = false
+
+  # Tags
+  # Add tag cloud
+  tagCloud = true
+
+  # Add tag list
+  tagList = true
 
 # Comments system
 [params.comments]
